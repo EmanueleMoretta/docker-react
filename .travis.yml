@@ -3,10 +3,10 @@ services:
     - docker
 
 before_install:
-    - docker build -t EmanueleMoretta/docker-react -f Dockerfile.dev .
+    - docker build -t emanuelemoretta/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run -e CI=true EmanueleMoretta/docker-react npm run test -- --coverage
+    - docker run -e CI=true emanuelemoretta/docker-react npm run test -- --coverage
 
 deploy:
     provider: elasticbeanstalk
