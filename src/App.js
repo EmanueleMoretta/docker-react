@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          master title
+          master title new
         </a>
       </header>
     </div>
