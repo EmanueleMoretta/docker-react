@@ -10,5 +10,5 @@ FROM node:alpine
   COPY --from=0 /app/build /usr/share/nginx/html
 
   # terminate
-  RUN echo 'terminate Dockerfile'
+  RUN echo 'terminate Dockerfile2'
   
